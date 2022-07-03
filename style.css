@@ -126,15 +126,15 @@ ul{
 }
 
 .container5{ 
-
+    display: flex;
+    flex-direction: column;
     text-align: center;
     flex-shrink: 0;
     width: 190px;
 }
 
 .container5 div{
-    padding-left: 10px;
-    padding-right: 10px;
+
     color: grey;
 
  
@@ -142,7 +142,7 @@ ul{
 
 .container6{
     height: 190px;
-    border: solid 4px #3882F6;
+    /*border: solid 4px #3882F6;*/
     border-radius: 14px;
     margin-bottom: 5px;
 }
@@ -216,3 +216,10 @@ ul{
     color: #E5E7EB;
     text-align: center;
 }
+
+.img1{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.container5 .img1{border-radius: 14px;}
